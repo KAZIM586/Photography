@@ -1,0 +1,228 @@
+/* navbar style start */
+.navbar{
+    z-index: 1;
+}
+
+.navbar .navbar-brand{
+    color: #fff;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #dddada;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+   
+}
+.navbar .navbar-nav .nav-link:hover{
+    color:rgb(0, 0, 0);
+}
+
+.nav-link{
+    transition: all 0.2s;
+}
+
+.nav-link:hover{
+    text-decoration: underline rgb(174, 253, 56);
+    
+}
+
+/* navbar end */
+
+/* hero crousel */
+
+.herocrousel{
+    margin-top: -7rem;
+    z-index: -1;
+}
+
+/* content on crousel */
+
+.bg-img{
+    filter: brightness(0.6);
+}
+
+.content{
+    position: relative;
+    top: 15rem; 
+    z-index: 1; 
+}
+
+.content pre{
+    position: absolute;
+    color: #b8b5b5;
+    font-size: 2rem;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 576px) {
+    .content {
+    top: 10rem;  
+    }
+
+    .content pre{
+      
+        color: #b8b5b5;
+       
+        font-size: 1rem;
+        
+    }
+  }
+
+@media only screen and (min-width: 1024px) {
+    .content {
+    top: 20rem;
+    left: 8rem;  
+    }
+
+    .content pre{
+      
+        color: #b8b5b5;
+       
+        font-size: 3rem;
+        
+    }
+  }
+
+/* hero crousel end */
+
+/* dreamlocation place section style */
+
+.dreamlocation{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    background-size: cover; 
+}
+
+.textimg{
+    position: absolute;
+    top: 100rem;
+    left: 12rem;  
+}
+
+.textimg pre{
+    position: absolute;
+    color: #b8b5b5;
+    font-size: 2rem;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 576px) {
+    .textimg{
+       
+        top: 71rem;
+        left: 3rem;  
+    }
+    .textimg pre{
+        
+        color: #b8b5b5;   
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .textimg{
+       
+        top: 170rem;
+        left: 15rem;  
+    }
+    .textimg pre{
+        
+        color: #b8b5b5;   
+        font-size: 2.5rem;
+    }
+    
+}
+
+/* dreamlocation place section style end */
+
+
+ /* section information part  */
+ 
+.info{
+    text-align: center;
+}
+
+#northwest{
+    display: none;
+}
+ /* section information part end */
+
+/* crousel image part  */
+
+.main_container{
+    margin-top: -4rem;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    border-radius: 4%;
+}
+
+.arrow{
+    height: 3rem;
+    width: 4rem;
+    cursor: pointer;
+
+}
+
+.right{
+    transform: rotate(180deg);
+}
+
+.frame{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider{
+    display: flex;
+    transition: all 1s ease;
+}
+
+.cimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    
+.main_container{    
+    gap: 20px;
+    
+}
+.arrow{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    margin-top: -8rem;
+}
+}
+
+/* crousel image part end here  */
+
+
+ /* golden temple info section */
+#templeinfo{
+    display: none;
+}
+.golden-temple{
+    margin-top: -5rem;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .golden-temple{
+        margin-top: -17rem;
+    } 
+}
+
+ /* golden temple info section end  */
